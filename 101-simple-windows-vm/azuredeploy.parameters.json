@@ -1,0 +1,24 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newStorageAccountName": {
+      "value": "unique-name-you-recorded-in-excercise-2 "
+    },
+    "adminUsername": {
+      "value": "admin123"
+    },
+    "adminPassword": {
+      "value": "ADmin123_!"
+    },
+    "dnsNameForPublicIP": {
+      "value": "your-initials-plus-some-random-stuff"
+    },
+    "location":{
+      "value": "West US"
+    },
+    "sizeOfDiskInGB": {
+      "value": "20"
+    }
+  }
+}
